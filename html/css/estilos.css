@@ -39,18 +39,21 @@
     padding: 1rem;
     border: 5px solid black ;
     border-radius: 2rem;
+
     
   }
   
   
   h2 {
     text-align: center;
-    width: 250px;
+    width: 60%;
     padding: 0.5rem;
-    margin: 3rem;
     border: 5px solid green;
     border-radius: 2rem;
     background-color: white;
+    
+    
+    
   }
   
   textarea {
@@ -60,15 +63,15 @@
     border-block-end-width: 5px;
     border-block-color: green;
     margin: 1.5rem;
-    width: 30%;
+    width: 60%;
     height: 60%;
     color: white;
   }
   
   textarea:focus{
     background-color:white;
-    width: 30%;
-    height: 60%px;
+    width: 60%;
+    height: 60%;
    color: black ; 
   }
 
@@ -82,10 +85,10 @@
     border-block-start-width: 0px;
     border-right-width: 5px;
     border-right-color: white;
-    width: 35pc;
+    width: 100%;
     margin-inline: 15%;
-    margin: 5%;
     height: 2pc;
+    margin-left: auto;
 
   }
   
@@ -119,8 +122,9 @@
   }
   
   .cvstyle{
+    width: auto;
     background-color: aliceblue;
-    height: 100vh;
+    height: auto;
     display: grid ;
     grid-template: 
     "cvtitulo cvtitulo"
@@ -129,26 +133,29 @@
   
   .cvtitulo{
     grid-area: cvtitulo;
+    width: 100%;
+   
     
     
   }
   
   .sectioncv{
     grid-area: aside;
-    width: auto;
+    
+    height: auto;
   }
   
   .sectioncv2{
     grid-area: sectioncv2;
     overflow-y: scroll;
     width: auto;
-    height: 1100px;
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin:auto;
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
+    
       
     
   }
@@ -156,7 +163,7 @@
   .form {
     width: auto;
     max-width: 600px;
-    margin: 0 auto;
+    margin:  auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,7 +172,7 @@
 
 .sub1 {
 
-    margin-left: 40%;
+    margin: auto;
 }
 
 .modulo {
@@ -226,11 +233,9 @@ margin-inline-end: 15px;
 
 .titulo_calculadora{
  width: auto;
- display: flexbox;
-justify-content: center;
-margin-left: 40%;
-margin-right: 40%;
-margin-top: 10%;
+align-items: center;
+border: solid black;
+
 
 }
 
