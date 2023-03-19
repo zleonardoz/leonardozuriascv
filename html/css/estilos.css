@@ -114,7 +114,7 @@
   }
   
   .cvstyle{
-    
+    background-color: aliceblue;
     height: 100vh;
     display: grid ;
     grid-template: 
@@ -182,3 +182,55 @@
     width: 100px;
     height: 100px;
 }
+
+#numeros {
+margin-top: 15px;
+margin-inline-end: 15px; 
+
+
+}
+
+.acceso_calculadora {
+  margin-right: auto;
+  margin-left: 30%;
+  margin-top: 10px;
+
+}
+
+.form_calculadora {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.numero1{
+
+  width: 50px;
+  border-bottom: solid green;
+}
+
+.titulo_calculadora{
+ width: 200px;
+ display: flexbox;
+justify-content: center;
+margin-left: 42%;
+margin-right: 40%;
+margin-top: 10%;
+
+}
+
+.operaciones{
+  display: flexbox;
+justify-content: center;
+margin-left: 42%;
+margin-right: 40%;
+width: 250px;
+margin-top: 20px;
+  
+}
+
