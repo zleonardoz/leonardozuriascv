@@ -3,12 +3,17 @@
 .logogmail {
     width: 40px;
     height: 20px;
+    border: solid black;
+    border-radius: 10%;
+
 
 }
 
 #logolinkedln {
     width: 40px;
     height: 20px;
+    border: solid black;
+    border-radius: 10%;
 
 }
 
@@ -55,15 +60,15 @@
     border-block-end-width: 5px;
     border-block-color: green;
     margin: 1.5rem;
-    width: 600px;
-    height: 300px;
+    width: 30%;
+    height: 60%;
     color: white;
   }
   
   textarea:focus{
     background-color:white;
-    width: 600px;
-    height: 300px;
+    width: 30%;
+    height: 60%px;
    color: black ; 
   }
 
@@ -77,9 +82,9 @@
     border-block-start-width: 0px;
     border-right-width: 5px;
     border-right-color: white;
-    width: 40pc;
+    width: 35pc;
     margin-inline: 15%;
-    margin: auto;
+    margin: 5%;
     height: 2pc;
 
   }
@@ -130,13 +135,13 @@
   
   .sectioncv{
     grid-area: aside;
-    width: 400px;
+    width: auto;
   }
   
   .sectioncv2{
     grid-area: sectioncv2;
     overflow-y: scroll;
-    width: 100%;
+    width: auto;
     height: 1100px;
     max-width: 900px;
     margin: 0 auto;
@@ -149,7 +154,7 @@
   }
 
   .form {
-    width: 100%;
+    width: auto;
     max-width: 600px;
     margin: 0 auto;
     display: flex;
@@ -198,7 +203,7 @@ margin-inline-end: 15px;
 }
 
 .form_calculadora {
-  width: 100%;
+  width: auto;
   max-width: 600px;
   margin: 0 auto;
   display: flex;
@@ -212,13 +217,15 @@ margin-inline-end: 15px;
 
   width: 50px;
   border-bottom: solid green;
+  margin-inline-end: 5px;
+  margin-block-end: 5px;
 }
 
 .titulo_calculadora{
- width: 200px;
+ width: auto;
  display: flexbox;
 justify-content: center;
-margin-left: 42%;
+margin-left: 40%;
 margin-right: 40%;
 margin-top: 10%;
 
@@ -227,7 +234,7 @@ margin-top: 10%;
 .operaciones{
   display: flexbox;
 justify-content: center;
-margin-left: 42%;
+margin-left: 40%;
 margin-right: 40%;
 width: 250px;
 margin-top: 20px;
