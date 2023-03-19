@@ -210,6 +210,9 @@ margin-inline-end: 15px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color:#b5f3bd;
+  border: solid green;
+  border-radius: 10%;
 
 }
 
